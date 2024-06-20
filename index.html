@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Bolaji Ogaji">
+    <meta name="description" content="Search engine for cryptocurrency">
+    <title>CryptoCurrently - Cryptocurrency search engine</title>
+
+    <!-- TO-DO === Change the site og tag content -->
+    <meta property="og:title" content="Name of specific page">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://siteURL">
+    <meta property="og:description" content="A brief description">
+    <meta property="og:image" content="Logo.jpg">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Logo1.png">
+</head>
+
+
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo"><img src="Logo1.png" alt="Official logo" width="100px" height="100px"></a>
+            <button class="hamburger-btn"><img src="hamburger-menu-svgrepo-com.svg" alt="Hamburger menu" height="50px" width="50px"></button>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#search">Search</a></li>
+                <li><a href="#selection">Learn</a></li>
+                <li><a href="#membership">Become a member</a></li>
+            </ul>
+        </nav>
+        <section class="hamburger-nav-links">
+            <ul class="hamburger-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#search">Search</a></li>
+                <li><a href="#selection">Learn</a></li>
+                <li><a href="#membership">Become a member</a></li>
+            </ul>
+        </section>
+    </header>
+
+    <main>
+
+        <section class="hero" id="hero">
+            <section class="hero-main">
+                <section class="brand">
+                    <img src="Logo1.png" alt="CryptoCurrently Logo">
+                    <h1>RYPTO<span>CURRENTLY</span></h1>
+                </section>
+            </section>
+            <section class="hero-child">
+                <img src="bitcoin-logo.png" alt="little bitcoin logo" width="70px" height="70px" class="bouncing-coin">
+                <section class="hero-text">
+                    <h1>ACCESS <span>CURRENT</span> INFORMATION ON OVER 10,000 CRYPTOCURRENCIES WITH THE CLICK OF A BUTTON</h1>
+                </section>
+                <img src="ethereum-logo.png" alt="little ethereum logo" width="70px" height="70px" class="bouncing-coin">
+            </section>
+        </section>
+
+
+        <section class="search" id="search">
+            <h1>THE LARGEST CRYPTO SEARCH ENGINE</h1>
+            <section class="search-bar">
+                <input type="text" placeholder="Enter cryptocurrency name" spellcheck="false" class="search-input">
+                <button><img src="search.png" alt="search button"></button>
+            </section>
+            <section class="loading">
+                <h1>Loading.....</h1>
+            </section>
+            <section class="not-found">
+                <h2>Oops! No result was gotten for <span class="input"></span>. <br> Don't worry, it happens to the best of us, try typing the full name of the coin</h2>
+            </section>
+            <section class="search-result">
+                <section class="result-head">
+                    <h2 id="search-name"></h2>
+                    <div id="search-image">
+
+                    </div>
+                    <p id="search-rank"></p>
+                    <p id="search-details"></p>
+                </section>
+                <section class="small-coin-data">
+                    <table>
+                        <tr>
+                            <th><h3>Price</h3></th>
+                            <td><p id="search-price"></p></td>
+                        </tr>
+                        <tr>
+                            <th><h3>Trading symbol</h3></th>
+                            <td><p id="search-symbol"></p></td>
+                        </tr>
+                        <tr>
+                            <th><h3>24hr price change</h3></th>
+                            <td><p id="search-price-change"></p></td>
+                        </tr>
+                        <tr>
+                            <th><h3>Market cap</h3></th>
+                            <td><p id="search-market-cap"></p></td>
+                        </tr>
+                        <tr>
+                            <th><h3>Followers on X</h3></th>
+                            <td><p id="search-followership"></p></td>
+                        </tr>
+                    </table>
+                </section>
+            </section>
+        </section>
+
+        <section class="choice-coins" id="selection">
+            <h1>Learn</h1>
+            <h3>Did you know about:</h3>
+            <section class="pick">
+                <h2 id="pick-name">Coin Name</h2>
+                <div id="pick-image">
+
+                </div>
+                <p id="pick-rank">Global Rank: #</p>
+                <p id="pick-details">Coin details</p>
+                <section class="small-coin-data">
+                    <table>
+                        <tr>
+                            <th><h3>Price</h3></th>
+                            <td><p id="pick-price"></p></td>
+                        </tr>
+                        <tr>
+                            <th><h3>Trading symbol</h3></th>
+                            <td><p id="pick-symbol"></p></td>
+                        </tr>
+                        <tr>
+                            <th><h3>24hr price change</h3></th>
+                            <td><p id="pick-price-change"></p></td>
+                        </tr>
+                        <tr>
+                            <th><h3>Market cap</h3></th>
+                            <td><p id="pick-market-cap"></p></td>
+                        </tr>
+                        <tr>
+                            <th><h3>Followers on X</h3></th>
+                            <td><p id="pick-followership"></p></td>
+                        </tr>
+                    </table>
+                </section>
+            </section>
+        </section>
+
+
+        <section class="membership" id="membership">
+            <h1>Join the elite club</h1>
+            <h2>Join a rapidly growing community of over 300,00 Web3 enthusiats aiming to facilitate a decentralised future</h2>
+            <img src="discord.png" alt="Discord logo" width="400">
+            <button>Join the community</button>
+        </section>
+    </main>
+
+    <footer>
+        <img src="Logo1.png" alt="Official logo" width="100px" height="100px"></a>
+        <p> CryptoCurrently &copy;2024</p>
+        <section class="foot-links-container">
+            <h3>Follow us on:</h3>
+            <section class="footer-links">
+                <a href="x.com">X(formerly Twitter)</a>
+                <a href="instagram.com">Instagram</a>
+            </section>
+        </section>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
